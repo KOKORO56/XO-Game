@@ -1,0 +1,12 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "ui_app.py": "controller.py, game.py, ai.py, hardware.py, robot.py, vision.py, robot_config.json, robot_config.backup.json",
+    "test_game.py": "test_controller.py, test_robot.py, test_vision.py",
+    "camera_test.py": "check_robot.py, check_move.py"
+  },
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}
